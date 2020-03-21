@@ -1,0 +1,343 @@
+# Copyright (C) 2019 webpublisherpro
+# This file is distributed under the GPLv2+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Calendar Pro 1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/event-calendar-pro.bk\n"
+"POT-Creation-Date: 2019-01-28 04:32:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: event-calendar-pro.php:107
+msgid "Cloning is forbidden."
+msgstr ""
+
+#: event-calendar-pro.php:116
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: includes/admin/class-metabox.php:21
+msgid "Date/Time"
+msgstr ""
+
+#: includes/admin/class-metabox.php:25
+msgid "Event Recurrence"
+msgstr ""
+
+#: includes/admin/class-metabox.php:30
+msgid "Location"
+msgstr ""
+
+#: includes/admin/class-metabox.php:35
+msgid "Sponsor"
+msgstr ""
+
+#: includes/admin/class-metabox.php:40
+msgid "Additional Information"
+msgstr ""
+
+#: includes/admin/class-settings-api.php:353
+msgid "Choose File"
+msgstr ""
+
+#: includes/admin/class-settings.php:33
+msgid "Page Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:37
+msgid "Countries"
+msgstr ""
+
+#: includes/admin/class-settings.php:41
+msgid "States"
+msgstr ""
+
+#: includes/admin/class-settings.php:60
+msgid "Events Page"
+msgstr ""
+
+#: includes/admin/class-settings.php:61
+msgid "The page contains [event_calendar_pro_event_list] shortcode"
+msgstr ""
+
+#: includes/admin/class-settings.php:67
+msgid "Events Submit Page"
+msgstr ""
+
+#: includes/admin/class-settings.php:68
+msgid "The page contains [event_calendar_pro_form] shortcode"
+msgstr ""
+
+#: includes/admin/class-settings.php:76
+msgid "Country"
+msgstr ""
+
+#: includes/admin/class-settings.php:77
+msgid "Add Country for Event location option"
+msgstr ""
+
+#: includes/admin/class-settings.php:82 includes/admin/class-settings.php:102
+msgid "Country Code"
+msgstr ""
+
+#: includes/admin/class-settings.php:83
+msgid "Country code. Ex: CA for Canada"
+msgstr ""
+
+#: includes/admin/class-settings.php:90
+msgid "State Name"
+msgstr ""
+
+#: includes/admin/class-settings.php:91
+msgid "Enter the state name"
+msgstr ""
+
+#: includes/admin/class-settings.php:96
+msgid "State Code"
+msgstr ""
+
+#: includes/admin/class-settings.php:97
+msgid "State code. Ex: AL for Alabama"
+msgstr ""
+
+#: includes/admin/class-settings.php:103
+msgid "Select the country code of the state"
+msgstr ""
+
+#: includes/admin/class-settings.php:120
+msgid "Event Calendar Pro Settings"
+msgstr ""
+
+#: includes/class-install.php:157
+msgid "User Role"
+msgstr ""
+
+#: includes/class-install.php:193
+msgid "Monthly"
+msgstr ""
+
+#: includes/class-post-types.php:19
+msgid "Event"
+msgstr ""
+
+#: includes/class-post-types.php:19
+msgid "Events"
+msgstr ""
+
+#: includes/class-post-types.php:47
+msgid "Event Category"
+msgstr ""
+
+#: includes/class-post-types.php:47
+msgid "Event Categories"
+msgstr ""
+
+#: includes/class-post-types.php:68 includes/class-post-types.php:100
+msgid "All %s"
+msgstr ""
+
+#: includes/class-post-types.php:70 includes/class-post-types.php:73
+msgid "New %s"
+msgstr ""
+
+#: includes/class-post-types.php:71 includes/class-post-types.php:105
+msgid "Add New %s"
+msgstr ""
+
+#: includes/class-post-types.php:72 includes/class-post-types.php:103
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-post-types.php:74
+msgid "View %s"
+msgstr ""
+
+#: includes/class-post-types.php:75
+msgid "Search %s"
+msgstr ""
+
+#: includes/class-post-types.php:76
+msgid "No %s found"
+msgstr ""
+
+#: includes/class-post-types.php:77
+msgid "No %s found in Trash"
+msgstr ""
+
+#: includes/class-post-types.php:78 includes/class-post-types.php:102
+msgid "Parent %s:"
+msgstr ""
+
+#: includes/class-post-types.php:99
+msgid "Search %"
+msgstr ""
+
+#: includes/class-post-types.php:101
+msgid "Parent %s"
+msgstr ""
+
+#: includes/class-post-types.php:104
+msgid "Update %s"
+msgstr ""
+
+#: includes/class-post-types.php:106
+msgid "New % Name"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Event Calendar Pro"
+msgstr ""
+
+#: includes/class-widget.php:23
+msgid "Show and Filters Events"
+msgstr ""
+
+#: includes/class-widget.php:71
+msgid "Calendar"
+msgstr ""
+
+#: includes/class-widget.php:75
+msgid "Title:"
+msgstr ""
+
+#: includes/core-functions.php:223
+msgid "Something is not correct, please correct the form and try again"
+msgstr ""
+
+#: includes/core-functions.php:226
+msgid ""
+"<p class=\"message text-danger\">Invalid Capcha code, please fix the error "
+"and resubmit the form.</p>"
+msgstr ""
+
+#: includes/core-functions.php:229
+msgid ""
+"<p class=\"message text-danger\">Invalid Email, please enter a valid email "
+"and resubmit the form.</p>"
+msgstr ""
+
+#: includes/core-functions.php:232
+msgid "Your event posting has been saved."
+msgstr ""
+
+#: templates/admin/event-date-time.php:14
+#: templates/widget-events-page-filter.php:69
+msgid "Start Date:"
+msgstr ""
+
+#: templates/admin/event-date-time.php:19
+msgid "Start Time:"
+msgstr ""
+
+#: templates/admin/event-date-time.php:27
+#: templates/widget-events-page-filter.php:73
+msgid "End Date:"
+msgstr ""
+
+#: templates/admin/event-date-time.php:31
+msgid "End Time:"
+msgstr ""
+
+#: templates/admin/event-information.php:14
+msgid "Cost:"
+msgstr ""
+
+#: templates/admin/event-information.php:20
+msgid "Ages:"
+msgstr ""
+
+#: templates/admin/event-information.php:26
+msgid "Photo description:"
+msgstr ""
+
+#: templates/admin/event-location.php:18
+msgid "Location:"
+msgstr ""
+
+#: templates/admin/event-location.php:22
+msgid "Address:"
+msgstr ""
+
+#: templates/admin/event-location.php:36
+msgid "City:"
+msgstr ""
+
+#: templates/admin/event-location.php:41
+msgid "State:"
+msgstr ""
+
+#: templates/admin/event-location.php:58
+msgid "Zipcode:"
+msgstr ""
+
+#: templates/admin/event-location.php:62
+msgid "Country:"
+msgstr ""
+
+#: templates/admin/event-sponsor.php:14
+msgid "Name:"
+msgstr ""
+
+#: templates/admin/event-sponsor.php:20
+msgid "Phone:"
+msgstr ""
+
+#: templates/admin/event-sponsor.php:26
+msgid "Contact Name:"
+msgstr ""
+
+#: templates/admin/event-sponsor.php:32
+msgid "Contact Email:"
+msgstr ""
+
+#: templates/admin/event-sponsor.php:38
+msgid "Website:"
+msgstr ""
+
+#: templates/event-form.php:28
+msgid "Name of event"
+msgstr ""
+
+#: templates/event-form.php:33
+msgid "Category"
+msgstr ""
+
+#: templates/event-form.php:41
+msgid "Description"
+msgstr ""
+
+#: templates/event-form.php:46
+msgid "Image"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "webpublisherpro.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin for Event schedule management"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "webpublisherpro"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://webpublisherpro.com"
+msgstr ""
+
+#: includes/class-post-types.php:97
+msgctxt "taxonomy general name"
+msgid "%s"
+msgstr ""
+
+#: includes/class-post-types.php:98
+msgctxt "taxonomy singular name"
+msgid "%s"
+msgstr ""

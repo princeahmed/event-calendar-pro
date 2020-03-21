@@ -1,0 +1,171 @@
+/**
+ * Event Calendar Pro
+ * webpublisherpro.com
+ *
+ * Copyright (c) 2018 webpublisherpro
+ * Licensed under the GPLv2+ license.
+ */
+@import "variables";
+@import "component";
+@import "event-recurrence";
+
+.ecp-widget-event-list {
+	margin-top: 20px;
+	.list-address {
+		& > p {
+			margin: 0;
+		}
+	}
+	&-section {
+		font-weight: bold;
+		& > button {
+			& > a {
+				box-shadow: none !important;
+			}
+		}
+	}
+}
+
+.ecp-widget-event-filter {
+	text-align: left;
+	padding: 15px 0 5px;
+
+	.form-group {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	button[type=submit] {
+		background-color: #ECECEC;
+		border: none;
+		border-radius: 5px;
+		padding: 0 30px;
+		&:after {
+			content: '';
+			background: url("../images/icons/search.svg");
+			height: 15px;
+			width: 15px;
+			display: block;
+		}
+	}
+
+	input[type=search] {
+		border-radius: 5px;
+		width: 100%;
+		margin-right: 40px;
+
+	}
+
+	select {
+		margin-left: 15px;
+	}
+
+	&.event-listing {
+		.form-group {
+			select, input {
+				width: 70%;
+			}
+
+			&.ecp-search-filter {
+				border-top: 1px solid #999;
+				padding-top: 10px;
+				margin-top: 10px;
+				display: block;
+				overflow: hidden;
+
+				input {
+					width: 100%;
+					margin-right: 0;
+					margin-bottom: 10px;
+				}
+
+				button {
+					float: right;
+					&:after {
+						content: 'Search';
+						background: none;
+						height: auto;
+						width: auto;
+						display: inherit;
+					}
+				}
+			}
+		}
+	}
+}
+
+.ecp-date-time-meta-data {
+	.glyphicon-calendar:before {
+		content: "\1f4c5" !important;
+	}
+}
+
+.recurrence {
+	img {
+		width: 20px;
+	}
+
+	& > span {
+		font-size: 30px;
+		font-weight: bold;
+		vertical-align: middle;
+		top: -3px;
+	}
+}
+
+.fc-today {
+	background: $date_bg !important;
+}
+
+.ecp-event-info {
+	.ecp-uploaded-image {
+		display: block;
+		padding: 15px 0;
+	}
+}
+
+.ecp-message {
+	font-size: 22px;
+	margin: 14px 0;
+	font-weight: bold;
+	display: block;
+	background: #ddd;
+	padding: 20px;
+}
+
+.fc-day-top {
+	&:hover {
+		cursor: pointer;
+		background: #4d4d4d !important;
+		color: #fff !important;
+	}
+}
+
+.ecp-widget-event-footer {
+	&.event-listing {
+		.event-submit{
+			float: left;
+		}
+
+		.calendar-download{
+			float: right;
+		}
+	}
+	&.single-listing {
+		display: flex;
+		flex-flow: column;
+		a:nth-last-child(2) {
+			margin: 5px 0;
+		}
+	}
+
+	.submit-event {
+		float: left;
+	}
+
+	.view-event {
+		float: right;
+	}
+}
+

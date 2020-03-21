@@ -1,0 +1,22 @@
+{
+    "name": "pluginever/event-calendar-pro",
+    "description": "Plugin for Event schedule management",
+    "keywords": ["wordpress", "plugin"],
+    "homepage": "webpublisherpro.com",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "webpublisherpro",
+            "email": "support@webpublisherpro.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Pluginever\\EventCalendarPro\\": "includes/"
+        }
+    }
+}
